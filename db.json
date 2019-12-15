@@ -1,0 +1,60 @@
+{
+  "urlData": [
+    {
+      "url": "https://github.com",
+      "title": "The world’s leading software development platform · GitHub",
+      "description": "The world’s leading software development platform · GitHub",
+      "image": "https://github.githubassets.com/images/modules/open_graph/github-logo.png",
+      "tag": [
+        "Hub",
+        "Dev"
+      ],
+      "id": 1
+    },
+    {
+      "url": "https://amazon.in",
+      "title": "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in",
+      "description": "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in",
+      "image": "http://g-ec2.images-amazon.com/images/G/31/img14/anywhere/amazon-logo-500500._V327001990_.jpg",
+      "tag": [
+        "e-Commerce",
+        "Online shopping"
+      ],
+      "id": 2
+    },
+    {
+      "url": "https://stackoverflow.com",
+      "title": "Stack Overflow - Where Developers Learn, Share, & Build Careers",
+      "description": "Stack Overflow - Where Developers Learn, Share, & Build Careers",
+      "image": "https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded",
+      "tag": [
+        "Doubts",
+        "Tech"
+      ],
+      "id": 3
+    },
+    {
+      "url": "https://developer.mozilla.org/",
+      "title": "MDN Web Docs",
+      "description": "MDN Web Docs",
+      "image": "https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png",
+      "tag": [
+        "Hub",
+        "Dev"
+      ],
+      "id": 4
+    },
+    {
+      "url": "https://medium.com",
+      "title": "Medium – Get smarter about what matters to you.",
+      "description": "Medium – Get smarter about what matters to you.",
+      "image": "https://cdn-images-1.medium.com/max/1200/1*29XAq2WrtejUCxRzSgDLXA.png",
+      "tag": [
+        "Blog",
+        " Learning",
+        " Dev"
+      ],
+      "id": 5
+    }
+  ]
+}
