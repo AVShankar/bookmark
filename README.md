@@ -1,6 +1,6 @@
 # Bookmark_App 📑
 
-Bookmark app is a web application done using ReactJS and Firebase for Authentication. It allows user to maintain bookmarks
+Bookmark app is a web application done using ReactJS and Firebase for Authentication. It allows user to maintain their bookmarks
 
 Website's homepage when not signed-in with Google will look like: 
 
@@ -18,7 +18,7 @@ Note: Your Google account name will be displayed after "Hello" below navbar
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-If you would like to add a new bookmark, you can simply click on the ```Add new``` button to get the form:
+If you would like to add a new bookmark, you can simply click on the ```Add new``` button to get the form, and just paste the URL, tags. App will get title, image and description for the url you paste
 
 ![Image of Yaktocat](https://github.com/AVShankar/bookmark/blob/master/Screenshots/form.png)
 
