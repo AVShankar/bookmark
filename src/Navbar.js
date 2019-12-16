@@ -53,9 +53,6 @@ class Navbar extends React.Component
     }
 }
 
-
-// export default Navbar;
-
 export default withFirebaseAuth({
   providers,
   firebaseAppAuth,
