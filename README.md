@@ -30,7 +30,7 @@ If you would like to remove the bookmark, simply click the ```Delete``` button â
 
 How to install? ðŸ› 
 
-Maintain a file named ```firebaseConfig.js``` inside ```src``` folder and then paste your firebase project config credentials. And, export it as firebaseConfig. Then follow the below steps,
+Create a file named ```firebaseConfig.js``` inside ```src``` folder and then paste your firebase project config credentials. And, export it as firebaseConfig. Then follow the below steps,
 
 1.Create a React app using ```cmd : npx create-react-app project_name``` from CMD line
 
