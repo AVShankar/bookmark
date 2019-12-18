@@ -1,6 +1,8 @@
 # Bookmark_App 📑
 
-Bookmark app is a web application done using ReactJS and Firebase for Authentication. It allows user to maintain their bookmarks
+Bookmark app is a web application done using ReactJS and Firebase for Authentication. 
+
+User can maintain their bookmarks using this app.
 
 Website's homepage when not signed-in with Google will look like: 
 
