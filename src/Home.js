@@ -46,9 +46,11 @@ class Home extends React.Component {
           "description": description,
           "image": image,
           "tag": tag
-        }).then(resolved => {
-          console.log(resolved)
-    }).catch(e => console.log(e)
+        }).then(success => {
+          this.setState({
+            urlData: [...this.state.urlData, success.data]
+          })
+        }).catch(e => console.log(e)
     )}
       )}
 
