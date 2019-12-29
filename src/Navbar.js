@@ -31,7 +31,9 @@ class Navbar extends React.Component
                 <form className="form-inline">
                 {user 
                 ?
-                  <button className="btn btn-outline-danger my-2 my-sm-0" type="button" onClick={signOut}>Sign out</button> : 
+                  <div>
+                  <button className="btn btn-outline-danger my-2 my-sm-0" type="button" onClick={signOut}>Sign out</button> &nbsp;
+                  <img src={user.photoURL} alt="prof" class="rounded-circle" width="30" height="30" /> </div> : 
                   <button className="btn btn-outline-success my-2 my-sm-0" type="button" onClick={signInWithGoogle}>Sign in</button>
                 }
                 </form>
