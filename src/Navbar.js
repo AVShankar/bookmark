@@ -27,7 +27,7 @@ class Navbar extends React.Component
           <div>
             <div>
               <nav className="navbar navbar-dark bg-light">
-                <a className="navbar-brand">Bookmark App</a>
+                <h4> Bookmark App </h4>
                 <form className="form-inline">
                 {user 
                 ?
