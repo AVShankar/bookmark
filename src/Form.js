@@ -41,7 +41,7 @@ class Form extends React.Component
                 <h4>Feed me more!</h4>
                 <form>
                     <label>URL: </label>
-                    <input type="text" ref="url" className="form-control"placeholder="Paste the url here..." onChange={this.updateData.bind(this)} autoFocus/>
+                    <input type="text" ref="url" className="form-control"placeholder="http(s)://www.example.com" onChange={this.updateData.bind(this)} autoFocus/>
                     <br></br>
                     <label>Tag(s): </label>
                     <input type="text" ref="tag" className="form-control" placeholder="Tag1, Tag2, ..." onChange={this.updateData.bind(this)}/>
