@@ -48,7 +48,7 @@ class Details extends React.Component {
         this.state.savedData.map(individualValue =>{
         return (
         <div className="card col-sm-3" style={{width: "18rem"}} key={individualValue.name}>
-          <a href={individualValue.url} target="_blank">
+          <a href={individualValue.url} >
             <img src={individualValue.image} className="card-img-top" alt="logo" />
           </a>
           <div className="card-body">
