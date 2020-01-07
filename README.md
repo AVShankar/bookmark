@@ -20,7 +20,7 @@ Note: Your Google account name will be displayed after "Hello" below navbar
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-If you would like to add a new bookmark, you can simply click on the ```Add new``` button to get the form, and just paste the URL, tags. App will get title, image and description for the url you paste
+If you would like to add a new bookmark, you can simply click on the ```Add new``` button to get the form, and just paste the URL, tags. App will get title, image and description for the url you pasted
 
 ![Image of Yaktocat](https://github.com/AVShankar/bookmark/blob/master/Screenshots/form.png)
 
