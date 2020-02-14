@@ -7,7 +7,7 @@ class Details extends React.Component {
   constructor(props)
   {
     super(props)
-    this.state = { savedData: [] }
+    this.state = { savedData: [], isFormActive: false }
   }
 
   componentDidMount()
@@ -22,11 +22,12 @@ class Details extends React.Component {
 
   getForm()
   {
-    ReactDOM.render(<Form addData={this.props.addData}/>, document.getElementById('form'))
+    const { isFormActive } = this.state
+    this.setState({ isFormActive: !isFormActive })
   }
 
-
   render() {
+    const { isFormActive } = this.state;
     return (
       <div className="container">
         <nav className="navbar navbar-light">
@@ -38,10 +39,10 @@ class Details extends React.Component {
             value="Add New"
             style={{ alignContent: "center" }}
             className="btn btn-outline-success my-2 my-sm-0"
-            onClick={this.getForm.bind(this)}
+            onClick={this.getForm}
           />
         </nav>
-        <div id="form"></div>
+        {isFormActive ? <Form addData={this.props.addData}/> : null}
         <br></br>
         <div className="row">
           {
